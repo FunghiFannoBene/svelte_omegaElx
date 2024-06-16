@@ -32,7 +32,12 @@ jobs:
           override: true
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          if [ ${{ matrix.os }} == 'ubuntu-latest' ]; then
+            sudo apt-get update
+            sudo apt-get install -y build-essential libssl-dev
+          fi
+          npm install
 
       - name: Build the project
         run: npm run tauri build
@@ -42,3 +47,4 @@ jobs:
         with:
           name: build-artifacts
           path: src-tauri/target/release/bundle/
+
