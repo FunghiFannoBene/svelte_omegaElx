@@ -1,0 +1,30 @@
+<script>
+
+</script>
+
+<div class="landing-detail landing-detail--left">
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+		</div>
+		<div class="landing-detail-cover landing-detail-cover--left">
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+		</div>
+		<div class="landing-detail landing-detail--right">
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+		</div>
+		<div class="landing-detail-cover landing-detail-cover--right">
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+			<span>&nbsp;</span>
+		</div>
+		<!-- Overlay -->
+		<div class="site-overlay"></div>
+
+<style>
+	
+</style>

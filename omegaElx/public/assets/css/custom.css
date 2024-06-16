@@ -1,0 +1,128 @@
+/*
+File Name: 		custom.css
+Description:  You can add your custom CSS here and it will overwrite template styles
+*/
+/*# sourceMappingURL=maps/custom.css.map */
+.landing-detail span:nth-child(2),
+.landing-detail-cover span:nth-child(2) {
+  width: 200px;
+  height: 200px;
+  margin-top: -100px;
+  border-width: 26px;
+}
+.landing-detail span:last-child,
+.landing-detail-cover span:last-child {
+  width: 282px;
+  height: 282px;
+  margin-top: -141px;
+  border-width: 20px;
+}
+.landing-detail--left,
+.landing-detail-cover--left {
+  left: -199px;
+}
+.landing-detail--left span,
+.landing-detail-cover--left span {
+  left: 50%;
+}
+.preloader-is--active.site-layout--landing .landing-detail--left span,
+.preloader-is--active.site-layout--landing .landing-detail-cover--left span {
+  left: -100%;
+}
+.landing-detail--left span:first-child,
+.landing-detail-cover--left span:first-child {
+  margin-left: -50px;
+}
+.site-layout--landing .landing-detail--left span:first-child,
+.site-layout--landing .landing-detail-cover--left span:first-child {
+  -webkit-transition: 0.7s 0.8s left cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 0.8s left cubic-bezier(0.86, 0, 0.07, 1);
+}
+.landing-detail--left span:nth-child(2),
+.landing-detail-cover--left span:nth-child(2) {
+  margin-left: -100px;
+}
+.site-layout--landing .landing-detail--left span:nth-child(2),
+.site-layout--landing .landing-detail-cover--left span:nth-child(2) {
+  -webkit-transition: 0.7s 1s left cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 1s left cubic-bezier(0.86, 0, 0.07, 1);
+}
+.landing-detail--left span:last-child,
+.landing-detail-cover--left span:last-child {
+  margin-left: -141px;
+}
+.site-layout--landing .landing-detail--left span:last-child,
+.site-layout--landing .landing-detail-cover--left span:last-child {
+  -webkit-transition: 0.7s 1.2s left cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 1.2s left cubic-bezier(0.86, 0, 0.07, 1);
+}
+.landing-detail--right,
+.landing-detail-cover--right {
+  right: -199px;
+}
+.landing-detail--right span,
+.landing-detail-cover--right span {
+  right: 50%;
+}
+.preloader-is--active.site-layout--landing .landing-detail--right span,
+.preloader-is--active.site-layout--landing .landing-detail-cover--right span {
+  right: -100%;
+}
+.landing-detail--right span:first-child,
+.landing-detail-cover--right span:first-child {
+  margin-right: -50px;
+}
+.site-layout--landing .landing-detail--right span:first-child,
+.site-layout--landing .landing-detail-cover--right span:first-child {
+  -webkit-transition: 0.7s 0.8s right cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 0.8s right cubic-bezier(0.86, 0, 0.07, 1);
+}
+.landing-detail--right span:nth-child(2),
+.landing-detail-cover--right span:nth-child(2) {
+  margin-right: -100px;
+}
+.site-layout--landing .landing-detail--right span:nth-child(2),
+.site-layout--landing .landing-detail-cover--right span:nth-child(2) {
+  -webkit-transition: 0.7s 1s right cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 1s right cubic-bezier(0.86, 0, 0.07, 1);
+}
+.landing-detail--right span:last-child,
+.landing-detail-cover--right span:last-child {
+  margin-right: -141px;
+}
+.site-layout--landing .landing-detail--right span:last-child,
+.site-layout--landing .landing-detail-cover--right span:last-child {
+  -webkit-transition: 0.7s 1.2s right cubic-bezier(0.86, 0, 0.07, 1);
+  transition: 0.7s 1.2s right cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+@keyframes slide-left {
+  0% { left: 50%; }
+  50% { left: 30%; }
+  100% { left: 50%; }
+}
+@keyframes slide-right {
+  0% { right: 50%; }
+  50% { right: 30%; }
+  100% { right: 50%; }
+}
+
+.site-layout--landing .landing-detail--left span:first-child,
+.site-layout--landing .landing-detail-cover--left span:first-child,
+.site-layout--landing .landing-detail--left span:nth-child(2),
+.site-layout--landing .landing-detail-cover--left span:nth-child(2),
+.site-layout--landing .landing-detail--left span:last-child,
+.site-layout--landing .landing-detail-cover--left span:last-child {
+  animation: slide-left 3s infinite;
+  animation-direction: alternate;
+}
+
+.site-layout--landing .landing-detail--right span:first-child,
+.site-layout--landing .landing-detail-cover--right span:first-child,
+.site-layout--landing .landing-detail--right span:nth-child(2),
+.site-layout--landing .landing-detail-cover--right span:nth-child(2),
+.site-layout--landing .landing-detail--right span:last-child,
+.site-layout--landing .landing-detail-cover--right span:last-child {
+  animation: slide-right 3s infinite;
+  animation-direction: alternate;
+}

@@ -1,0 +1,10 @@
+.site-layout--landing .site-content__center {
+  position: relative;
+  padding-top: 40px;
+  padding-bottom: 66px;
+  z-index: 1;
+}
+  .site-layout--landing .site-content__center {
+    padding-top: 5.208333vh;
+    padding-bottom: 8.59375vh;
+  }
